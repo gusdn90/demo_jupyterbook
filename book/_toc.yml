@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Main
+  chapters:
+  - file: markdown
+  - file: notebooks
+  - file: markdown-notebooks
+
+- caption: Best Practices
+  chapters:
+  - file: best_practices/a
+  - file: best_practices/b
+  - file: best_practices/c
